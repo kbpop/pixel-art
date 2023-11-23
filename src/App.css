@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(2, 99, 43);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: monospace;
 }
 
 .App-link {
@@ -35,4 +36,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg-green {
+  background: rgb(2, 93, 40);
+}
+
+.fs-1 {
+  font-size: 8px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Equal columns */
+  gap: 0px
+}
+.grid-item{
+  background-color: Red;
+  height: 20px;
+  width: 20px;
 }

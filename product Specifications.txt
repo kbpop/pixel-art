@@ -1,0 +1,9 @@
+1. Create a web application where someone can adjust the horizontal and vertical axis of a grid that a person can draw on.
+    - Create Grid Button
+    - Clear Grid Button
+    - Erase Button
+    - Paint Button
+    - Create a grid for colors
+2. Make the grid drawable with multiple different colors.
+3. Make the image that was created on the grid printable.
+
